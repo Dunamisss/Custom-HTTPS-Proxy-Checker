@@ -50,5 +50,4 @@ Execution summary and results are logged in proxy_results.txt.
 Script Execution Summary
 For a detailed summary of the script's execution, refer to the log file proxy_checker.log.
 
-License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
