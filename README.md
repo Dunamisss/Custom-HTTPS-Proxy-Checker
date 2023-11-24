@@ -52,7 +52,7 @@ For a detailed summary of the script's execution, refer to the log file proxy_ch
 
 MIT License
 
-Copyright (c) [Year] [Your Name]
+Copyright (c) 2023 Dunamisss
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
