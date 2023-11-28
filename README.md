@@ -1,56 +1,39 @@
 # Proxy Checker
 
-## Overview
+This script is a robust and efficient tool for downloading and validating proxies. It's designed to be easy to use and highly customizable.
 
-The **Proxy Checker** is a Python script designed for efficiently checking the working status of proxies. It is equipped with features to validate both built-in and custom proxies, providing users with a streamlined process to identify functional proxies for their needs.
+## Features
 
-## Key Features
+- **Proxy Downloading**: The script automatically downloads proxies from URLs listed in a text file.
+- **Multithreaded Proxy Validation**: Proxies are validated in parallel using multithreading, significantly speeding up the process compared to sequential checks.
+- **User Customization**: You can specify the number of proxies to check and the number of threads to use.
+- **Custom Proxy Checking**: If a .txt file is found in the 'custom_proxies' folder, the script will prompt you to check these proxies.
+- **Output Files**: The script saves valid proxies and working proxies to separate files in the 'output_files' directory.
+- **Detailed Logging**: Detailed information about the script's execution is logged to a file, making it easy to troubleshoot any issues.
+- **Proxy Rotation** & **UserAgent Rotation** Thanks to who ever created the UserAgent.txt 
 
-- **Built-in and Custom Proxies:** The script allows users to check the status of both built-in proxies and custom proxies loaded from a .txt file.
-  
-- **Parallel Processing:** Proxies are checked in parallel using concurrent.futures, ensuring faster execution and efficient validation.
+## Usage
 
-- **User Agent Rotation:** The script employs random user agents to mimic diverse client environments during proxy validation.
+1. (Optional) Add your proxy URLs to 'proxy_urls.txt' or simple just use the built in ones.
+2. (Optional) Add your custom proxies to a .txt file in the 'custom_proxies' folder.
+3. Run the script: `python main.py`
+4. Follow the prompts to specify the number of proxies to check and the number of threads to use.
 
-- **Logging:** Detailed logging is implemented, providing insights into the selected user agents, checked proxies, and execution summary.
+## Requirements
 
-## How to Use
+- Python 3.6 or higher
+- Required Python packages: `requests`, `tqdm`
 
-### Prerequisites
+## Results
+Working proxies are saved to `working_proxies.txt`.
+Valid proxies are saved to `https.txt`.
+Execution summary and results are logged in `proxy_results.txt`.
 
-- Python 3.x
-- Required Python packages (install using `pip install -r requirements.txt`)
+## Script Execution Summary
+For a detailed summary of the script's execution, refer to the log file `proxy_checker.log`.
 
-### Setup
-
-1. Clone the repository to your local machine.
-2. Install the required packages by running:
-  ```bash
-   pip install -r requirements.txt
-   ```
-
-# Execution
-Run the script using the following command:
-
-Prepare a list of proxy URLs in a text file named proxy_urls.txt.
-Specify user agents in a text file named user_agents.txt.
-Optionally, create a folder named custom_proxies and place a .txt file with custom proxies for additional validation.
-
-Run the script using the following command:
-
-```bash
-python proxy_checker.py
-```
-Follow on-screen prompts to check built-in proxies or custom proxies if available.
-
-Results
-Working proxies are saved to working_proxies.txt.
-Valid proxies are saved to https.txt.
-Execution summary and results are logged in proxy_results.txt.
-Script Execution Summary
-For a detailed summary of the script's execution, refer to the log file proxy_checker.log.
-
-MIT License
+ 
+[MIT](https://choosealicense.com/licenses/mit/) License
 
 Copyright (c) 2023 Dunamisss
 
@@ -74,5 +57,5 @@ SOFTWARE.
 
 ---
 
-This Proxy Checker is provided for educational use only. The author [Your Name] is not responsible for how it is used or any consequences resulting from its use.
+This Proxy Checker is provided for educational use only. The author Dunamis is not responsible for how it is used or any consequences resulting from its use.
 
