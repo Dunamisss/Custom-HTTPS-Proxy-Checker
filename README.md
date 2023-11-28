@@ -1,4 +1,4 @@
-# Proxy Checker
+# Custom Https Proxy Checker
 
 This script is a simple and efficient tool for downloading and validating proxies. It's designed to be easy to use and highly customizable.
 
