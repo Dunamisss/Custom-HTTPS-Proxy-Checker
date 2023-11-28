@@ -1,0 +1,3 @@
+https://www.sslproxies.org/?request=getproxies&protocol=https
+https://proxyrack.com/free-proxy-list?request=getproxies&protocol=https
+https://api.proxyscrape.com/?request=getproxies&proxytype=https
