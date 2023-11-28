@@ -32,7 +32,7 @@ Execution summary and results are logged in `proxy_results.txt`.
 ## Script Execution Summary
 For a detailed summary of the script's execution, refer to the log file `proxy_checker.log`.
 
- 
+## licence
 [MIT](https://choosealicense.com/licenses/mit/) License
 
 Copyright (c) 2023 Dunamisss
