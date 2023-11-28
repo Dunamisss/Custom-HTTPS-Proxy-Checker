@@ -32,6 +32,9 @@ Execution summary and results are logged in `proxy_results.txt`.
 ## Script Execution Summary
 For a detailed summary of the script's execution, refer to the log file `proxy_checker.log`.
 
+## Licence
+This project is licensed under the [MIT License](LICENSE).
+
 ---
 
 This Proxy Checker is provided for educational use only. The author Dunamis is not responsible for how it is used or any consequences resulting from its use.
