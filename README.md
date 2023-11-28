@@ -1,4 +1,4 @@
-# Custom Https Proxy Checker
+<img alt="logo.png" src="https://github.com/Dunamisss/Custom-HTTPS-Proxy-Checker/blob/main/logo.png?raw=true" data-hpc="true">
 
 This script is a simple and efficient tool for downloading and validating proxies. It's designed to be easy to use and highly customizable.
 
